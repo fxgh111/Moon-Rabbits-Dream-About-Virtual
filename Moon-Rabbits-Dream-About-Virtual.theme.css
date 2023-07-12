@@ -41,20 +41,30 @@
 ------------------------------------------------------*/
 :root {
     /* The text that appear in top, leave it blank ("") if you dont want any */
-    --custom-text: "TSUKINO MITO";
+    --custom-text: "";
 
+
+--accent-color-main: #b288e6;
+	--accent-color-main-opacity:#b288e6CC;
+	--accent-color-dark: #322c3a;
+	--accent-color-darker: #251f2d;
+    --accent-text-color: #ff3292;
+    --background-color: #dd5a90;
+  
+    
     /* General Colors */
     --border-color: #da4a60;
-    --drag-gradient1: #e8c4d3;
+    --drag-gradient1: #dbbdca;
     --drag-gradient2: #e39ba7;
     --name-bg: #d95b72;
+   
 
     /* Background Colors & BG Image */
     --bg-gradient1: #e297b2;
     --bg-gradient2: #c0b4d5;
     --bg-gradient3: #54b5de;
     --bg-image: none; /* Write the image url, example url("your url") [none is default]*/
-    --opacity: 0; /* Value in numbers from 0 to 1, but there is a limit */
+    --opacity: 1; /* Value in numbers from 0 to 1, but there is a limit */
     --bg-blur: 6px; /* Value in px */
 
     /* HSL(Hue, Saturation, Lightness). This values will change the accent color (That blue color in most buttons) */
@@ -80,8 +90,8 @@
     --streaming-color: #f066f0;
 
     /* Chatbar Colors */
-    --channeltextarea-background: #F0F2F2;
-    --text-color: #313D40;
+    --channeltextarea-background: rgb(255, 234, 254);
+    --text-color: rgb(69, 107, 119);
     --icon-color: var(--text-color);
     --selected-text-bg: var(--text-color);
     --selected-text-color: var(--channeltextarea-background);
